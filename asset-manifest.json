@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cuvette-assignment/static/css/main.9a30de0d.css",
+    "main.js": "/cuvette-assignment/static/js/main.03d5ef35.js",
+    "static/media/1.jpg": "/cuvette-assignment/static/media/1.4083f0d8a446d8d83594.jpg",
+    "index.html": "/cuvette-assignment/index.html",
+    "main.9a30de0d.css.map": "/cuvette-assignment/static/css/main.9a30de0d.css.map",
+    "main.03d5ef35.js.map": "/cuvette-assignment/static/js/main.03d5ef35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a30de0d.css",
+    "static/js/main.03d5ef35.js"
+  ]
+}
