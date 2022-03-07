@@ -1,0 +1,107 @@
+.Update {
+  .dialog-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    padding: 1rem 2.1rem;
+    border-bottom: 1px solid $border-color;
+    .heading-name {
+      font-weight: bold;
+      font-size: 1.4rem;
+      color: $text-color;
+      letter-spacing: -0.02em;
+    }
+    .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .logo-name {
+        font-size: 0.7rem;
+        font-weight: 700;
+        color: $text-color;
+        margin-bottom: -5px;
+      }
+      .logo-image {
+        width: 36px;
+        height: 36px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  .dialog-content {
+    padding: 2.1rem 1.2rem;
+    .input-rank {
+      display: flex;
+      width: 100%;
+      padding: 1rem 0;
+      justify-content: space-between;
+      .content-input {
+        font-weight: normal;
+        font-size: 1.05rem;
+        color: $text-color;
+        span {
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: bold;
+          font-size: 0.75rem;
+          letter-spacing: -0.02em;
+          color: #ffffff;
+          background-color: $button;
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          margin-right: 01rem;
+        }
+      }
+      .button-input {
+        button {
+          border: 1px solid $button;
+          border-radius: 0;
+          height: 32px;
+          color: $button;
+        }
+        input {
+          width: 40px;
+          height: 27px;
+          border-left: 0;
+          border-right: 0;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .dialog-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    border-top: 1px solid $border-color;
+    .out {
+      width: 120px;
+      height: 44px;
+      color: $button;
+      border-color: $button;
+      margin-right: 2.4rem;
+    }
+    .fill {
+      width: 120px;
+      height: 44px;
+      background-color: $button;
+      margin-right: 2.4rem;
+    }
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,9 @@
+@import "../variable";
+@import "./top-bar";
+@import "./left-nav";
+@import "./children";
+@import "./heading";
+.page-structure {
+  display: grid;
+  grid-template-columns: 240px auto;
+}

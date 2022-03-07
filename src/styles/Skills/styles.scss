@@ -1,0 +1,21 @@
+@import "../variable";
+@import "./indivisual";
+@import "./syllabus";
+@import "./indivisual-stat";
+@import "./update";
+@import "./question";
+@import "./graph";
+
+.skills-main {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2.7rem;
+  grid-template-rows: auto auto auto auto auto;
+  grid-auto-flow: row;
+}
+
+@media all and (max-width: 1100px) {
+  .skills-main {
+    grid-template-columns: 1fr;
+    margin-bottom: 80px;
+  }
+}

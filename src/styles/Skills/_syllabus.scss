@@ -1,0 +1,116 @@
+.syllabus-analysis {
+  width: 100%;
+  grid-column: 2/3;
+  grid-row: 1/4;
+  height: auto;
+  padding: 1.4rem 1.6rem;
+  border-radius: 10px;
+  border: 1px solid $border-color;
+
+  .syllabus-data {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    .syllabus-data-item {
+      margin-bottom: 2rem;
+    }
+    .syllabus-data-item-name {
+      font-weight: normal;
+      font-size: 1rem;
+      letter-spacing: -0.02em;
+      color: $text-color;
+      margin-bottom: 0.25rem;
+    }
+    .syllabus-data-item-percentage {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      font-weight: bold;
+      font-size: 16px;
+      .bar-status {
+        border-radius: 20px;
+        width: 60%;
+        height: 0.5rem;
+        .main-bar {
+          width: 0%;
+          animation: full-width 1.2s linear 0.5s 1 normal forwards;
+          border-radius: 20px;
+          position: relative;
+          height: 100%;
+          z-index: 1;
+        }
+        @keyframes full-width {
+          0% {
+            width: 0%;
+          }
+
+          100% {
+            width: 100%;
+          }
+        }
+        .below-bar {
+          border-radius: 20px;
+          position: relative;
+          margin-top: -0.5rem;
+          z-index: 0;
+          height: 100%;
+          opacity: 0.1;
+        }
+      }
+    }
+    .red {
+      color: #fb5e5e;
+      .bar-status {
+        .main-bar {
+          background: #fb5e5e;
+        }
+        .below-bar {
+          background: #fb5e5e;
+        }
+      }
+    }
+    .orange {
+      color: #ff9142;
+      .bar-status {
+        .main-bar {
+          background: #ff9142;
+        }
+        .below-bar {
+          background: #ff9142;
+        }
+      }
+    }
+    .blue {
+      color: #438af6;
+      .bar-status {
+        .main-bar {
+          background: #438af6;
+        }
+        .below-bar {
+          background: #438af6;
+        }
+      }
+    }
+    .green {
+      color: #2ec971;
+      .bar-status {
+        .main-bar {
+          background: #2ec971;
+        }
+        .below-bar {
+          background: #2ec971;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .syllabus-analysis {
+    width: auto;
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    position: relative;
+    padding: 1.4rem 1.6rem;
+    margin: 2.2rem 30px 0 0;
+  }
+}
