@@ -20,7 +20,7 @@ const Question = () => {
       </div>
       <div className="analysis-main">
         <div className="main-content">
-          <b>You scored 7 question correct out of 15.</b>
+          <b>You scored {stats.score} question correct out of 15.</b>
           However it still needs some improvements
         </div>
         <div className="main-chart">
