@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/cuvette-assignment/static/css/main.9a30de0d.css",
-    "main.js": "/cuvette-assignment/static/js/main.03d5ef35.js",
+    "main.css": "/cuvette-assignment/static/css/main.14db57dc.css",
+    "main.js": "/cuvette-assignment/static/js/main.e6e46aa4.js",
     "static/media/1.jpg": "/cuvette-assignment/static/media/1.4083f0d8a446d8d83594.jpg",
+    "static/media/graph.png": "/cuvette-assignment/static/media/graph.4cdf95f6febab4382568.png",
     "index.html": "/cuvette-assignment/index.html",
-    "main.9a30de0d.css.map": "/cuvette-assignment/static/css/main.9a30de0d.css.map",
-    "main.03d5ef35.js.map": "/cuvette-assignment/static/js/main.03d5ef35.js.map"
+    "main.14db57dc.css.map": "/cuvette-assignment/static/css/main.14db57dc.css.map",
+    "main.e6e46aa4.js.map": "/cuvette-assignment/static/js/main.e6e46aa4.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a30de0d.css",
-    "static/js/main.03d5ef35.js"
+    "static/css/main.14db57dc.css",
+    "static/js/main.e6e46aa4.js"
   ]
 }
