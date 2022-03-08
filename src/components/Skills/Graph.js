@@ -1,9 +1,11 @@
 import React from "react";
 import CardHeading from "../Basics/CardHeading";
 import { useSelector } from "react-redux";
+import GraphImg from "../../media/graph/graph.png";
 
 const Graph = () => {
   const stats = useSelector((state) => state.update.stats);
+
   return (
     <div className="comparision-graph">
       <div className="graph-head">
@@ -16,7 +18,9 @@ const Graph = () => {
           than the average percentile 72% of all the engineers who took this
           assessment
         </div>
-        <div className="main-graph"></div>
+        <div className="main-graph">
+          <img src={GraphImg} alt="Graph" />
+        </div>
       </div>
     </div>
   );

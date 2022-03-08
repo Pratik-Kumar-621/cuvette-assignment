@@ -23,7 +23,10 @@ const IndivisualTest = () => {
         <div className="logo">
           <div className="logo-name">HTML</div>
           <div className="logo-image">
-            <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
+            <img
+              src="https://img.icons8.com/color/48/000000/html-5--v1.png"
+              alt="HTML"
+            />
           </div>
         </div>
         <div className="detail">
@@ -49,18 +52,14 @@ const IndivisualTest = () => {
         <CardHeading heading="Quick Statistics" />
         <div className="data-statics">
           <div className="ind-stat">
-            <div className="stat-image">
-              <img src="https://img.icons8.com/doodle/48/000000/trophy--v1.png" />
-            </div>
+            <div className="stat-image">🏆</div>
             <div className="stat-detail">
               <div className="stat-number">{stats.rank}</div>
               <div className="stat-type">Your Rank</div>
             </div>
           </div>
           <div className="ind-stat">
-            <div className="stat-image">
-              <img src="https://img.icons8.com/doodle/48/000000/trophy--v1.png" />
-            </div>
+            <div className="stat-image">📉</div>
             <div className="stat-detail">
               <div className="stat-number">
                 {stats.percentile < 10
@@ -72,9 +71,7 @@ const IndivisualTest = () => {
             </div>
           </div>
           <div className="ind-stat">
-            <div className="stat-image">
-              <img src="https://img.icons8.com/doodle/48/000000/trophy--v1.png" />
-            </div>
+            <div className="stat-image">✅</div>
             <div className="stat-detail">
               <div className="stat-number">
                 {stats.score < 10 ? `0${stats.score}` : stats.score} /{" "}

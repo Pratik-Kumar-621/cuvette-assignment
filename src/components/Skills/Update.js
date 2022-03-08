@@ -31,7 +31,10 @@ const Update = ({ handleClose }) => {
         <div className="logo">
           <div className="logo-name">HTML</div>
           <div className="logo-image">
-            <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
+            <img
+              src="https://img.icons8.com/color/48/000000/html-5--v1.png"
+              alt="LOGO"
+            />
           </div>
         </div>
       </div>

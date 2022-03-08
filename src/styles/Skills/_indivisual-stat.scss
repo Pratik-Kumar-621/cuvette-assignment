@@ -32,10 +32,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        img {
-          width: 21px;
-          height: 21px;
-        }
+        font-size: 1rem;
       }
       .stat-detail {
         .stat-number {
@@ -61,10 +58,7 @@
           width: 42px;
           height: 42px;
           margin-right: 0.7rem;
-          img {
-            width: 16px;
-            height: 16px;
-          }
+          font-size: 0.8rem;
         }
         .stat-detail {
           .stat-number {
